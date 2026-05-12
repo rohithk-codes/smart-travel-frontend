@@ -4,8 +4,8 @@
     "slug": "smart-transport",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "smartfrontend",
+
+    "scheme": "com.rohith.smarttransport",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -14,11 +14,10 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE"
-        
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.anonymous.smarttransport"
+      "package": "com.rohith.smarttransport"
     },
     "web": {
       "bundler": "metro",
@@ -40,8 +39,7 @@
         }
       ],
       "expo-secure-store",
-      "expo-web-browser",
-      "@clerk/expo"
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
